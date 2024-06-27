@@ -21,6 +21,8 @@ function Header() {
           alignItems: "center",
           height: "5rem",
           color: "white",
+          position:"sticky",
+          zIndex:"1"
         }}
       >
         <Box sx={{ display: "flex", gap: 2, marginLeft: "81px" }}>

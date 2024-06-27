@@ -9,7 +9,7 @@ function Carousel() {
 
   return (
     <div
-      style={{ width: "700px", height: "123px" }}
+      style={{ width: "100%", height: "123px" }}
       id="carouselExampleSlidesOnly"
       className="carousel slide"
       data-bs-ride="carousel"
@@ -17,6 +17,7 @@ function Carousel() {
       <div className="carousel-inner">
         <div className="carousel-item active">
           <img
+            height={280}
             src="https://img.freepik.com/free-photo/painting-mountain-lake-with-mountain-background_188544-9126.jpg"
             className="d-block w-100"
             alt="Mountain Lake"
@@ -24,6 +25,7 @@ function Carousel() {
         </div>
         <div className="carousel-item">
           <img
+            height={280}
             src="https://buffer.com/library/content/images/size/w1200/2023/10/free-images.jpg"
             className="d-block w-100"
             alt="Free Images"
@@ -31,6 +33,7 @@ function Carousel() {
         </div>
         <div className="carousel-item">
           <img
+            height={280}
             src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRmCy16nhIbV3pI1qLYHMJKwbH2458oiC9EmA&s"
             className="d-block w-100"
             alt="Encrypted Image"

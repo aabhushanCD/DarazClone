@@ -1,0 +1,22 @@
+.item {
+  background-color: rgb(255, 255, 255);
+  padding-top: 10px;
+  text-align: center;
+  width: 147.5px;
+  height: 147.5px;
+  border: 0.5px solid rgb(155, 136, 136);
+  margin: 0px;
+  box-shadow: none;
+}
+.item img {
+  display: block;
+  max-width:88px;
+  margin: 0 auto;
+  height: auto;
+
+}
+
+.item:hover {
+  transform: scale(1.005); /* Slightly enlarge the item */
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Add a shadow effect */
+}

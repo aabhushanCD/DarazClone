@@ -51,7 +51,7 @@ function Sidebar() {
             <ListItem
               key={index}
               onMouseEnter={() => setHoveredCategory(category)}
-              onMouseLeave={() => setHoveredCategory(null)}
+              onMouseLeave={() => setHoveredCategory(nul)}
               sx={{
                 backgroundColor:
                   hoveredCategory === category ? "#f5f5f5" : "transparent",
