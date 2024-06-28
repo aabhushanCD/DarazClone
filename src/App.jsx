@@ -5,6 +5,7 @@ import Carousel from "./component/carousel/carousel";
 import { Container } from "@mui/material";
 import Items from "./component/categories/gridBox";
 import "@fontsource/roboto";
+import Flashsale from "./component/container/flashSale";
 function App() {
   return (
     <>
@@ -20,6 +21,7 @@ function App() {
         <Carousel />
       </Container>
       <Items />
+      <Flashsale></Flashsale>
     </>
   );
 }
