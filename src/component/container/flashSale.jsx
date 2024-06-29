@@ -2,6 +2,7 @@ import Button from "@mui/material/Button";
 import { Typography, Box } from "@mui/material";
 import React, { useState, useEffect } from "react";
 import MainItemBox from "../container/mainItemBox";
+import data from "./data_FlashSale.json";
 function Timer() {
   const [time, setTime] = useState({ hour: 0, minute: 0, second: 0 });
 
@@ -62,19 +63,19 @@ function Flashsale() {
     <>
       <Box
         sx={{
-          p: 2,
+          display: "flex",
+          flexDirection: "column",
           width: "1133px",
           marginLeft: "120px",
           background: "white",
         }}
       >
-        <Typography variant="h6">Flash Sale</Typography>
+        <Typography variant="h5">Flash Sale</Typography>
         <Box
           sx={{
             height: "3rem",
             display: "flex",
             mt: 2,
-            borderBottom: "1px solid gray",
           }}
         >
           <Button variant="text" sx={{ color: "orange" }}>
@@ -85,8 +86,8 @@ function Flashsale() {
           </Button>
           <Timer></Timer>
         </Box>
+        <MainItemBox data={data} />
       </Box>
-      <MainItemBox />
     </>
   );
 }

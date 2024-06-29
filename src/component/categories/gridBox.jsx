@@ -2,7 +2,6 @@ import style from "./gridBox.module.css";
 import Item from "./grid_item";
 import details from "./details.json";
 
-
 function GridBox() {
   return (
     <>

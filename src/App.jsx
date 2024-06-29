@@ -6,6 +6,7 @@ import { Container } from "@mui/material";
 import Items from "./component/categories/gridBox";
 import "@fontsource/roboto";
 import Flashsale from "./component/container/flashSale";
+import JustForYou from "./component/container/justForYou";
 function App() {
   return (
     <>
@@ -22,6 +23,7 @@ function App() {
       </Container>
       <Items />
       <Flashsale></Flashsale>
+      <JustForYou></JustForYou>
     </>
   );
 }

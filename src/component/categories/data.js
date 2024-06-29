@@ -12,6 +12,7 @@ export const categoriesData = [
       },
     ],
   },
+
   {
     name: "Men's Fashion",
     subcategories: [
