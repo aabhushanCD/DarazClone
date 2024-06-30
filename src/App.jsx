@@ -7,6 +7,7 @@ import Items from "./component/categories/gridBox";
 import "@fontsource/roboto";
 import Flashsale from "./component/container/flashSale";
 import JustForYou from "./component/container/justForYou";
+import Footer from "./component/Footer/footer";
 function App() {
   return (
     <>
@@ -24,6 +25,7 @@ function App() {
       <Items />
       <Flashsale></Flashsale>
       <JustForYou></JustForYou>
+      <Footer />
     </>
   );
 }
